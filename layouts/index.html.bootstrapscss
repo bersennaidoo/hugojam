@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{ $css := resources.GetMatch "custom.scss" | resources.ToCSS }}
+    <link rel="stylesheet" type="text/css" href="{{$css.Permalink}}">
+    <title>Document</title>
+</head>
+<body>
+    <div class="bg-secondary-theme-l2">
+        Home
+    </div>
+    <button class="btn btn-main-theme-l4">Submit</button>
+</body>
+</html>

@@ -7,38 +7,58 @@ theme = "Eclectic"
 facebook = "https://facebook.com/example"
 twitter = "https://twitter.com/example"
 email = "contact@example.org"
-name = "Hugojam Corporation"
+name = "Shree Kamatcheeammen Temple"
 location = "Londonium"
 phone = "(999) 999-9999"
 hours = "**Mon-Fri:** 9:00AM - 6:00PM, ET"
 
 [menu]
 
-  [[menu.main]]
-  identifier = "about"
-  name = "About"
-  url = "/about"
-  weight = 1.0
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about"
+weight = 1.0
 
-  [[menu.main]]
-  identifier = "contact"
-  name = "Contact"
-  url = "/contact"
-  weight = 2.0
+[[menu.main]]
+identifier = "contact"
+name = "Contact"
+url = "/contact"
+weight = 2.0
+
+[[menu.main]]
+identifier = "visit-us"
+name = "Visit us"
+url = "/visit-us"
+weight = 3.0
+
+[[menu.main]]
+identifier = "religious-services"
+name = "Religious Services"
+url = "/religious-services"
+weight = 4.0
+
+[[menu.main]]
+identifier = "galleries"
+name = "galleries"
+url = "/galleries"
+weight = 5.0
+
 
 [params]
 color = "#4f46e5"
 copyright = "Copyright &copy; 2024 Shree Kamatcheeammen Temple. All Rights Reserved."
 
-  [[params.footer]]
-  title = "About"
-  content = "Shree Kamatcheeammen Temple is non-profit organization that provides the community with temple services."
+[[params.footer]]
+title = "About"
+content = "Shree Kamatcheeammen Temple is non-profit organization that provides the community with temple services."
 
-  [[params.footer]]
-  title = "Recent Blog Posts"
-  recents = "blog"
-  recentCount = 7.0
+[[params.footer]]
+title = "Recent Blog Posts"
+recents = "blog"
+recentCount = 7.0
 
-  [[params.footer]]
-  title = "Contact Us"
-  contact = true
+[[params.footer]]
+title = "Contact Us"
+contact = true
+menu = true
