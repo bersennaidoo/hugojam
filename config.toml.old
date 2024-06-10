@@ -15,38 +15,44 @@ hours = "**Mon-Fri:** 9:00AM - 6:00PM, ET"
 [menu]
 
 [[menu.main]]
-identifier = "about"
-name = "About"
-url = "/about"
+identifier = "Home"
+name = "Home"
+url = "/"
 weight = 1.0
+
+[[menu.main]]
+identifier = "About Us"
+name = "About Us"
+url = "/aboutus"
+weight = 2.0
 
 [[menu.main]]
 identifier = "contact"
 name = "Contact"
 url = "/contact"
-weight = 2.0
+weight = 3.0
 
 [[menu.main]]
 identifier = "visit-us"
 name = "Visit us"
 url = "/visit-us"
-weight = 3.0
+weight = 4.0
 
 [[menu.main]]
 identifier = "religious-services"
 name = "Religious Services"
 url = "/religious-services"
-weight = 4.0
+weight = 5.0
 
 [[menu.main]]
 identifier = "galleries"
 name = "galleries"
 url = "/galleries"
-weight = 5.0
+weight = 6.0
 
 
 [params]
-color = "#4f46e5"
+color = "#DAA520"
 copyright = "Copyright &copy; 2024 Shree Kamatcheeammen Temple. All Rights Reserved."
 
 [[params.footer]]
