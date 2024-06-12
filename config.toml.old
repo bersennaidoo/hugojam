@@ -1,13 +1,14 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "Shree Kamatcheeammen Temple"
+title = "Example Site"
 theme = "Eclectic"
+enableEmoji = true
 
 [author]
 facebook = "https://facebook.com/example"
 twitter = "https://twitter.com/example"
 email = "contact@example.org"
-name = "Shree Kamatcheeammen Temple"
+name = "Example Site"
 location = "Londonium"
 phone = "(999) 999-9999"
 hours = "**Mon-Fri:** 9:00AM - 6:00PM, ET"
@@ -15,49 +16,24 @@ hours = "**Mon-Fri:** 9:00AM - 6:00PM, ET"
 [menu]
 
 [[menu.main]]
-identifier = "Home"
-name = "Home"
-url = "/"
-weight = 1.0
-
-[[menu.main]]
-identifier = "About Us"
-name = "About Us"
-url = "/aboutus"
-weight = 2.0
+identifier = "about"
+name = "About"
+url = "/about"
+weight = 10
 
 [[menu.main]]
 identifier = "contact"
 name = "Contact"
 url = "/contact"
-weight = 3.0
-
-[[menu.main]]
-identifier = "visit-us"
-name = "Visit us"
-url = "/visit-us"
-weight = 4.0
-
-[[menu.main]]
-identifier = "religious-services"
-name = "Religious Services"
-url = "/religious-services"
-weight = 5.0
-
-[[menu.main]]
-identifier = "galleries"
-name = "galleries"
-url = "/galleries"
-weight = 6.0
-
+weight = 20
 
 [params]
 color = "#DAA520"
-copyright = "Copyright &copy; 2024 Shree Kamatcheeammen Temple. All Rights Reserved."
+copyright = "Copyright &copy; 2024 Example Site. All Rights Reserved."
 
 [[params.footer]]
 title = "About"
-content = "Shree Kamatcheeammen Temple is non-profit organization that provides the community with temple services."
+content = "Example Site is the world's leading manufactureer of surgical consumables. From syringes and gloves to masks, we have it all. Browse through our collection of various forms with different different needle sizes. We heal the world. You live in it."
 
 [[params.footer]]
 title = "Recent Blog Posts"
