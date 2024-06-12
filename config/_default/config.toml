@@ -3,3 +3,4 @@ languageCode = "en-us"
 title = "Example Site"
 theme = "Eclectic"
 enableEmoji = true
+enableGitInfo = true
