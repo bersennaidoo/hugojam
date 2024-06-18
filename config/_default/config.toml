@@ -1,6 +1,7 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Example Site"
-theme = "Eclectic"
+theme = "ExampleTheme"
 enableEmoji = true
 enableGitInfo = true
+Paginate = 3
