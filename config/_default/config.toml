@@ -1,7 +1,0 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "Example Site"
-theme = "ExampleTheme"
-enableEmoji = true
-enableGitInfo = true
-Paginate = 3

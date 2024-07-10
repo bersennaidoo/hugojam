@@ -1,0 +1,18 @@
+{
+  "comments": {
+    "dependencies": {
+      "bootstrap": "project",
+      "bootstrap-icons": "project",
+      "katex": "project"
+    },
+    "devDependencies": {}
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.0",
+    "katex": "^0.16.10"
+  },
+  "devDependencies": {},
+  "name": "bs5theme",
+  "version": "0.1.0"
+}
